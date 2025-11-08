@@ -1,5 +1,6 @@
 import { Modal, Button } from '@allxsmith/bestax-bulma';
 import { useState } from 'react';
+import 'bulma/css/bulma.min.css';
 
 function App() {
   const [showModal, setShowModal] = useState(false);
